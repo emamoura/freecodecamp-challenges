@@ -1,0 +1,140 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8YmFyfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin: 0;
+}
+
+p {
+    width: 50vw;
+    margin: 0;
+    margin-bottom: 0.6rem;
+}
+
+#description {
+    width: 100%;
+}
+
+.background-transparency {
+    background-color: #262a31b6;
+    display: block;
+    width: 100vw;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90vw;
+    font-size: 150%;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+}
+header h1 {
+    margin-top: 0;
+}
+
+#survey-form {
+    width: 60vw;
+    background-color: #4f6a7eab;;
+    margin: 0 auto;
+    border-radius: 0.6rem;
+}
+
+.group-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem;
+    margin: 0;
+}
+
+label {
+    display: block;
+}
+
+.input-field {
+    margin-bottom: 1rem;
+}
+
+#dropdown , input{
+    width: 50vw;
+    padding: 1rem;
+    margin-top: 0.4rem;
+    border-radius: 0.6rem;
+    border-width: 0;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+
+
+
+.input-field.row {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+        
+}
+
+.input-field.row input {
+    width: 1vw;
+}
+
+#text {
+    width: 50vw;
+    height: 20vh;
+    border-radius: 0.6rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+button {
+    width: 50vw;
+    height: 10vh;
+    font-size: 1.2rem;
+    background-color:#3c5161;
+    border-radius: 0.6rem;
+    border-style: solid;
+    color: #fff;
+    border-width: 1px;
+    border-color: #3c516f;
+}
+
+@media (max-width: 700px){
+
+    #survey-form {
+        width: 100%;
+    }
+    #dropdown , input{
+        width: 100%;
+    }
+    .input-field {
+       width: 100%;;
+    }
+
+    .input-field.row {
+        width: 100%;
+    }
+    .input-field.row input {
+        width: 4vw;
+    }
+
+    p {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 0.6rem;
+    }
+
+    #text {
+        width: 100%;
+        height: 40vh;
+    }
+    
+    button {
+        width: 90%;
+        height: 10vh;
+    }
+}
